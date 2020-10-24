@@ -13,7 +13,6 @@ function Main() {
         filter: "",
         message: "Getting movies info, please wait",
         results: [],
-        selected: {},
         genre: [],
         year: []
     })
