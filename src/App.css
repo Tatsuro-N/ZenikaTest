@@ -1,0 +1,91 @@
+.App {
+  text-align: center;
+  width:100%;
+}
+
+.movies{
+  display:flex;
+  flex-wrap:wrap;
+  margin:auto;
+  justify-content: flex-start;
+  align-items: center;
+  width:90%;
+  margin: auto;
+}
+
+.movie{
+  width: 33.33333%;
+  display:flex;
+  flex-direction: column;
+}
+
+.movie-poster{
+  width:220px;
+  height:326px;
+  align-self: center;
+}
+
+.details{
+  width:80%;
+  margin:auto;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.details div{
+  align-self: flex-start;
+  text-align: left;
+  margin:5px;
+}
+.details img{
+  align-self: flex-start;
+  margin:5px;
+}
+
+h2{
+  text-align: center;
+}
+
+button{
+  font-size: 20px;
+  border:0;
+  margin:5px;
+}
+
+button:hover{
+  font-size: 20px;
+  border:0;
+  margin:5px;
+  background-color: lightslategrey;
+}
+
+button:active{
+  font-size: 20px;
+  border:0;
+  margin:5px;
+  background-color: black;
+  color:white;
+}
+
+a{
+  color: initial;
+  text-decoration: none;
+}
+
+a:hover{
+  color: initial;
+  text-decoration: none;
+  opacity: 0.7;
+}
+
+a:active{
+  color: initial;
+  text-decoration: none;
+  opacity: 0.7;
+  border:3px solid black;
+}
+
+select{
+  font-size: 20px;
+  border:0;
+}
